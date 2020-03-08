@@ -1,0 +1,28 @@
+# List of files that should be ignored by Git
+
+# Dependencies
+#vendor/
+
+# Build artifacts
+/bin/
+/dist/
+
+# Notes
+TODO
+
+# Log files
+logs/
+*.log
+
+# Test output
+debug.test
+
+# OS files
+desktop.ini
+thumbs.db
+.DS_Store
+
+# Tools
+.idea/
+.scannerwork/
+.vscode/

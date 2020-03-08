@@ -1,0 +1,18 @@
+out:
+    enabled: true
+    filename: "out.log"
+    # Write to log asynchronously
+    async: true
+    # Configure file rotation (optional)
+    rotate:
+        enabled: true
+        # Max number of MB in a file before rotating
+        maxsize: 100 # MB
+        # Max number of old files to retain -- 0 to disable
+        maxcount: 0
+        # Max number of days (24-hours) to retain old files -- 0 to disable
+        maxage: 0
+        # Rotate an existing file and start fresh
+        rotate_existing: true
+        # Compress with gzip (.gz) on rotate
+        compress: false
